@@ -107,4 +107,5 @@ InitTestScene*.unity*
 .vsconfig
 .idea/.idea.sty/.idea
 
+# stl 测试提交
 .rider
