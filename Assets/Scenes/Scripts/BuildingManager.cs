@@ -21,6 +21,7 @@ public class BuildingManager : MonoBehaviour
 
     private Vector3 GetMouseWorldPosition() {
         Vector3 mouseWorldPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+        Debug.Log($"[BuildingManager] mouseWorldPosition:{mouseWorldPosition}");
         mouseWorldPosition.z = 0f;
         return mouseWorldPosition;
     }
